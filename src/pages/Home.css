@@ -1,0 +1,33 @@
+.hero-slider {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.overlay-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.overlay-text p {
+  font-size: 22px;
+  margin-top: 10px;
+}
