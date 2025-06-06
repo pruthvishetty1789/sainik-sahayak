@@ -1,0 +1,45 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #111;
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #ff7f1f;
+  padding: 1rem;
+  color: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 1rem 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
